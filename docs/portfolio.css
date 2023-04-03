@@ -1,0 +1,29 @@
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  Font-Family: 'Playfair Display', Serif;
+ background-color:antiquewhite;
+ color:black;
+}
+
+  .card img{ 
+  width:205px; 
+ border-radius: 10px;
+  height: 300px; 
+}  
+.card { background-color:
+   rgb(246, 245, 245);
+  }
+  
+.card-text{
+  background-color: rgb(247, 244, 244);
+  width:205px;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+   }
+.banner {font-size: xx-large;}
+

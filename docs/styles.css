@@ -4,20 +4,22 @@
 url( "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600&display=swap");
 
 
-* {
+ * {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   Font-Family: 'Playfair Display', Serif;
- background-color: antiquewhite;
+  
 }
+  
 
-body {
-  height: 100vh;
+   body {
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+
+} 
 
 h1 {
   font-size: 48px;
@@ -118,27 +120,26 @@ span:nth-child(18) {
   }
 }
 
-* {
+ * {
   box-sizing: border-box;
-}
+} 
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
 
-.main-content {
-  display: flex;
+
+ .main-content {
+   display: flex; 
   flex-direction: column;
   min-height: 100%;
-}
+} 
 
-h1{padding-top: 300px;}
+  h1{padding-top: 300px;}  
 
-footer {
+
+ footer{
   padding: 160px;
-  text-align: center;
-  Font-Family: 'Source Sans Pro', Sans-Serif;
-  Font-Size: 26px;
+  margin-top: auto;
+  Font-Family: 'Playfair Display', Serif;
+  font-size: x-large;
+  text-decoration: none;
 }
-a {color: black;}
+a {color: rgb(137, 126, 92);} 
