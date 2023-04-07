@@ -1,13 +1,32 @@
+
+
 @import 
 url( "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600&display=swap");
 
- 
- 
- *{ 
+body {
+  overflow: hidden;
+  margin: 0; 
+  padding: 0;
+  color: bisque;
+  Font-Family: 'Playfair Display', Serif;
+}
 
-  background-color:antiquewhite !important;
-  font-family: 'Playfair Display', Serif !important;
-  font-size: xx-large !important;
+.moving-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Move the element to the background */
+  animation: moveBackground 10s linear infinite; /* Set the animation properties */
+}
 
+@keyframes moveBackground {
+  0% {
+      transform: translateY(0); /* Initial position */
+  }
+  100% {
+      transform: translateY(-100vh); /* Final position (move up by 100% of viewport height) */
+  }
 }
 
